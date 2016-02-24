@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :materials
+
+  namespace :api do
+    # namespace :v1 do
+    jsonapi_resources :materials
+    jsonapi_resources :organizations
+    # end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
