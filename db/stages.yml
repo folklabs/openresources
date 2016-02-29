@@ -1,0 +1,16 @@
+---
+- name: Prevention
+  description: Prevention or reduction minimizes the generation of waste products in the first place
+  weight: 5
+- name: Reuse
+  description: Any operation where products or materials that are not waste are used again for the same purpose for which they were intended
+  weight: 4
+- name: Recycle
+  description: Any activity that includes the collection of used, reused, or unused items that would otherwise be considered waste, then remanufacturing the recycled raw materials into new products
+  weight: 3
+- name: Recovery
+  description: The conversion of non-recyclable waste materials into usable heat, electricity, or fuel is done through a variety of processes
+  weight: 2
+- name: Disposal
+  description: Disposal is any operation that involves the dumping and incineration of waste without energy recovery
+  weight: 1

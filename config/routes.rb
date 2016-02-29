@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     # namespace :v1 do
     jsonapi_resources :materials
     jsonapi_resources :organizations
+    jsonapi_resources :offers
+    jsonapi_resources :economic_processes
     # end
   end
 

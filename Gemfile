@@ -23,7 +23,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'mongoid', '~> 5.1.0' #, github: 'mongoid/mongoid'
 gem 'bson_ext'
-gem 'jsonapi-resources', :path => "/Users/pmackay/dev/openresources/github/jsonapi-resources-master"
+gem 'jsonapi-resources' #, :path => "/Users/pmackay/dev/openresources/github/jsonapi-resources-master"
 gem 'rails_admin'
 gem 'rack-cors', :require => 'rack/cors'
 
@@ -39,6 +39,8 @@ gem 'rack-cors', :require => 'rack/cors'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'factory_girl'
+  # gem 'seedbank'
 end
 
 group :development do

@@ -1,0 +1,30 @@
+name,uri,wikidata,level,hierarchy_level,description,economy,examples
+reduce,,,5,prevention,,,
+refuse,,,5,prevention,Avoid buying products,,
+minimise,,,5,prevention,,,Unpackaged stores (bring own containers)
+informed consumption,,,5,prevention,Knowing more about products when purchasing,,
+maintain,http://www.heppnetz.de/ontologies/goodrelations/v1.html#Maintain,Q6736778,5,prevention,Ongoing care,,"Repair shops, Dr Bike"
+rent,,,5,prevention,,rental economy,
+borrow,,,5,prevention,,sharing economy,
+lending,,,2,reuse,,sharing economy,
+reuse,,,4,reuse,,,
+repair,http://purl.org/goodrelations/v1#Repair,Q2144962,4,reuse,,,
+donate,,,4,reuse,,gift economy,To charity shops
+sell,http://purl.org/goodrelations/v1#Sell,,4,reuse,,,"Yerdle, Gumtree"
+buy,http://purl.org/goodrelations/v1#Buy,,4,reuse,,,
+give,,,4,reuse,,gift economy,"Freecycle, Freegle"
+swap,,,4,reuse,,,
+repurpose,,,4,reuse,,circular economy,Turn laptop into a media player
+refurbish,,,4,reuse,,,Replace upholstery on sofa
+upcycle,,,3,reuse,,,Create new structure out of old items
+recycle,,,3,recycling,,,
+closed loop recycling,,,3,recycling,,,
+downcycling,,,3,recycling,,,
+compost,,,3,recycling,,,
+home compost,,,3,recycling,,,
+home digestion,,,3,recycling,,,
+anerobic digestion,,,2,recovery,,,
+dispose,http://purl.org/goodrelations/v1#Dispose,,1,disposal,,,
+landfill,,,1,disposal,,,
+pyrolisis,,,1,disposal,,,
+gasification,,,1,disposal,,,
