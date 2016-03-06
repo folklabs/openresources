@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
@@ -26,6 +27,8 @@ gem 'bson_ext'
 gem 'jsonapi-resources' #, :path => "/Users/pmackay/dev/openresources/github/jsonapi-resources-master"
 gem 'rails_admin'
 gem 'rack-cors', :require => 'rack/cors'
+gem "haml-rails", "~> 0.9"
+gem 'foundation-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
